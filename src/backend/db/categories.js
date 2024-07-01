@@ -7,33 +7,33 @@ import { v4 as uuid } from "uuid";
 
 export const categories = [
 	{
-		_id: uuid(),
-		categoryName: "newReleases",
-		description:
-			"Discover the latest books including trending new book releases & best sellers",
+	  _id: uuid(),
+	  categoryName: "nouveautés",
+	  description:
+		"Découvrez les dernières fournitures de papeterie, y compris les nouveautés tendance et les meilleures ventes",
 	},
 	{
-		_id: uuid(),
-		categoryName: "selfHelp",
-		description:
-			"From memoirs to mental decluttering guides, here is your go-to list of self-care literature, to help your mind, body and beliefs",
+	  _id: uuid(),
+	  categoryName: "écriture",
+	  description:
+		"Des stylos aux marqueurs, trouvez tous les outils d'écriture nécessaires pour vos projets scolaires ou professionnels",
 	},
 	{
-		_id: uuid(),
-		categoryName: "fiction",
-		description:
-			"Meant to cause discomfort and fear for both the character and readers, horror writers often make use of supernatural and paranormal elements in morbid stories that are sometimes a little too realistic.",
+	  _id: uuid(),
+	  categoryName: "organisation",
+	  description:
+		"Tout pour organiser vos documents et votre espace de travail : chemises, classeurs, boîtes d'archive et plus encore",
 	},
 	{
-		_id: uuid(),
-		categoryName: "childrenBooks",
-		description:
-			"The best children's books capture imaginations, foster a love of reading, and stay with readers long past childhood.",
+	  _id: uuid(),
+	  categoryName: "créativité",
+	  description:
+		"Explorez notre collection de fournitures pour le dessin et les loisirs créatifs, parfaites pour les artistes de tous âges",
 	},
 	{
-		_id: uuid(),
-		categoryName: "biographies",
-		description:
-			"A biography (from the Greek words bios meaning life, and graphos meaning write) is a non-fictional account of a person's life.",
+	  _id: uuid(),
+	  categoryName: "scolaire",
+	  description:
+		"Tous les indispensables pour les étudiants : cahiers, registres, ramettes de papier et autres fournitures scolaires",
 	},
-];
+  ];
